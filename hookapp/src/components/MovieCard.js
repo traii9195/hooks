@@ -17,7 +17,7 @@ const MovieCard = ({ movie }) => {
           <ListGroup.Item>Rating: {movie.Rating}</ListGroup.Item>
         </ListGroup>
         <Card.Body>
-          <Card.Link href="#"> Link of the film </Card.Link>
+          <Card.Link href={movie.descriptionLink} target="_blank">Link to the film description</Card.Link>
         </Card.Body>
       </Card>
     </div>
